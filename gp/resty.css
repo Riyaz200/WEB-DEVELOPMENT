@@ -1,0 +1,399 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.header
+{
+    height: 90px;
+    width: 100%;
+    background: rgba(29, 25, 25, 0.854);
+    position: relative;
+    position: sticky;
+    top:0px;
+    /* overflow: ; */
+}
+#logo{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    font-size: 50px;
+}
+span
+{
+    color:#cda45e ;
+}
+.card:hover
+{
+    transform: scale(1.1);
+    background: #cda45e ;
+    color: black;
+    border: 1px solid white;
+}
+    
+
+.menu
+{
+    display: inline;
+    margin-left: 30px;
+}
+#menus
+{
+    position: absolute;
+    left: 460px;
+    top: 40px;
+    display: flex;
+}
+#btn1
+{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(163, 137, 95);
+    border: 2px solid #cda45e;
+    background: #4c350e52 ;
+    cursor: pointer;
+    
+}
+#btn1:hover
+{
+    background-color: #cda45e;
+    color: black;
+}
+.nav
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.nav:hover{
+    color: #cda45e;
+}
+.active
+{
+    color: #cda45e;
+}
+h1
+{
+    cursor: pointer;
+}
+#para
+{
+    font-size: 56px;
+    text-align: center;
+    color: rgb(213, 227, 214);
+    margin-top: 70px;
+}
+#sol{
+    font-size:24px ;
+    text-align: center;
+    color: #a28766;
+    margin-top: 20px;
+}
+#sec2
+{
+    background-image:url(dead.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+#btn2
+{
+    margin-left: 45%;
+    margin-top: 3%;
+    /* padding: 10px 15px; */
+    width: 120px;
+    height: 40px;
+    background: black;
+    border: 2px solid #cda45e;
+    color: #cda45e;
+    border-radius: 5px;
+
+}
+#btn2:hover
+{
+    background: #cda45e;
+    color: black;
+
+}
+#con
+{
+    font-size: 40px;
+    margin-left: 5%;
+    color: #cda45e;
+}
+body
+{
+    background: black;
+}
+#fra
+{
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.add
+{
+    background:black;
+    display: flex;
+    /* margin-left: 5%; */
+}
+.add a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+    .fa-location-dot
+    {
+        font-size: 20px;
+    border: 1px solid;
+    /* height: 40px; */
+    /* width: 40px; */
+    padding: 13px 13px;
+    margin-left: 5%;
+    margin-top: 10%;
+    background: #cda45e;
+
+    }
+    .fa-phone
+    {
+        font-size: 20px;
+        border: 1px solid;
+        /* height: 40px; */
+        /* width: 40px; */
+        padding: 10px 10px;
+        margin-left: 5%;
+        margin-top: 10%;
+        background: #cda45e;
+    }
+    .fa-regular
+    {
+        font-size: 20px;
+        border: 1px solid;
+        /* height: 40px; */
+        /* width: 40px; */
+        padding: 11px 11px;
+        margin-left: 5%;
+        margin-top: 10%;
+        background: #cda45e;
+    }
+
+
+    .acont
+    {
+        margin-top: 8.5%;
+        margin-left: 1%;
+        color: white;
+    }
+    #parent
+    {
+        display: flex;
+        
+    }
+    .int
+    {
+        width: 45.6%;
+        height: 50px;
+        margin-top: 25px;
+    }
+    #box
+    {
+        /* display: flex; */
+    }
+    .child
+    {
+        width: 30%;
+        margin-left: 5%;
+    }
+    #child2
+    {
+        width: 70%;
+        margin-left: 10%;
+    }
+    #int2
+    {
+        width: 91.6%;
+        height: 50px;
+        margin-top: 25px;
+    }
+    #int3
+    {
+        width: 91.6%;
+        height: 150px;
+        margin-top: 25px;
+    }
+    .drop
+    {
+        position: absolute;
+        background:black;
+        color: white;
+        width: 30%;
+        /* padding: 20px;
+         */
+         display: none ;
+         top: 30px;
+        
+         
+        
+    }
+    .dro
+    {
+        list-style: none;
+        font-size: 17px;
+         height: 25px; 
+        margin-top: 5px; 
+        padding: 5px;
+    }
+    .service:hover .drop
+    {
+        display: block;
+        /* color: #cda45e; */
+        
+        border: 1px solid #cda45e ;
+    }
+    .dro:hover{
+        background: #cda45e;
+
+    }
+    #header2
+    {
+        background: black;
+    }
+    #serv2
+    {
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .card
+    {
+        border: 2px solid #cda45e;
+        background: black;
+        color: white;
+        /* display: flex; */
+        width: 30%;
+        margin-left:2%;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    #total
+    {
+        display: flex;
+        /* margin-left: 10px; */
+    }
+    #btn3
+    {
+        margin-top: 20px;
+        width: 120px;
+        height: 40px;
+        background: black;
+        border: 2px solid #cda45e;
+        color: #cda45e;
+        border-radius: 5px;
+    }
+    #btn3:hover
+    {
+     background: #cda45e;
+     color: black;
+    }
+    #contact
+    {
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #header3
+    {
+        background: rgb(41, 38, 38);
+        width: 100%;
+        height: 60%;
+        display: flex;
+        /* margin-left: 20px; */
+        margin-top: 50px;
+    }
+    #numi
+    {
+        text-decoration: none;
+        color: rgb(90, 83, 83);
+    }
+    .footer
+    {
+        color: rgb(90, 83, 83);
+        list-style: none;
+        margin-top: 5px;
+    }
+    .footer:hover
+    {
+        color: #cda45e;
+    }
+    .subt
+    {
+        margin-left: 40px;
+    }
+    .boxi1
+    {
+        flex: 2;
+    }
+    .boxi2
+    {
+        flex: 1;
+    }
+    .boxi3
+    {
+        flex: 1;
+    }
+    .boxi4
+    {
+        flex: 2;
+    }
+    #subs
+    {
+        width: 65%;
+        height: 45px;
+        background: rgb(41, 38, 38);
+        border: 1px solid #cda45e;
+        transition: none;
+        transform: none;
+        color: #cda45e;
+    }
+    #last
+    {
+        width: 30%;
+        height: 45px;
+        margin-left: -10px;
+        margin-top: 30px;
+        background: #cda45e;
+        border: none;
+        border-radius: 0px 10px 10px 0px;
+    }
+    #last:hover
+    {
+        background: #8c7040;
+
+    }
+    .fty
+    {
+        margin-right: 40px;
+    }
+    #mes
+    {
+        padding: 10px 15px;
+        width: 91.6%;
+        margin-top: 25px;
+    }
+    .fta{
+        color: white;
+    }
+
+    
